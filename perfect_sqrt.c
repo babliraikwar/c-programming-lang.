@@ -6,8 +6,8 @@ int main(){
     double floatwar=sqrt((double)n);
     intvar=(int)floatwar;
     if((intvar*intvar)==n)
-    printf("success");
-    else
-    printf("failure");
+     printf("success");
+     else
+     printf("failure");
     return 0;
 }
