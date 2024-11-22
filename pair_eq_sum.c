@@ -3,7 +3,7 @@
 int main(){
     int i,j,*ptr,n,flag=0,sum;
     printf("enter sum:");
-    scanf("%d",&sum);
+    scanf("%d",&n);
     ptr=(int*)malloc(n*sizeof(int));
     if(ptr==NULL){
         printf("error! memory not allocated");
